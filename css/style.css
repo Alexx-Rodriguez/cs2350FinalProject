@@ -1,0 +1,74 @@
+/* Headings and Body */
+h1, h2, h3, h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px black;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 3px black;
+    background-color: black; 
+    color: white; 
+}
+
+/* Carousel Image Styling */
+.carousel-item img {
+    filter: brightness(80%); 
+}
+
+/* Navbar */
+.navbar {
+    background-color: #C0392B; 
+}
+
+.navbar-brand, .nav-link {
+    color: #FDEBD0; 
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #FFFFFF; 
+    text-shadow: 1px 1px 3px black;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #D35400; 
+    border-color: #C0392B; 
+    color: #FFFFFF; 
+}
+
+.btn-primary:hover {
+    background-color: #C0392B; 
+    border-color: #A93226; 
+    color: #FDEBD0; 
+}
+
+/* Links */
+a {
+    color: #D35400; 
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #C0392B; 
+    text-decoration: underline; 
+}
+
+/* Carousel Captions */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    padding: 15px;
+    border-radius: 10px; 
+    text-shadow: 1px 1px 3px black; 
+}
+
+/* Backgrounds */
+.bg-dark {
+    background-color: rgb(48, 48, 48) !important; 
+}
+
+.text-white {
+    color: white !important; 
+}
